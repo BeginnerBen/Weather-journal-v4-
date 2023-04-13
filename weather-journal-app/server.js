@@ -52,4 +52,4 @@ function addMovie (req, res){
   console.log(req.body);
   data.push(req.body);
   res.send(data);
-}
+};
